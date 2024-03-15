@@ -1,0 +1,25 @@
+.banner {
+    background-image: url("...img/card2.jpg");
+}
+
+.cuerpo{
+    background-color: rgb(34, 34, 34);
+}
+
+.titleh1{
+    .poppins-semibold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+      }
+}
+.card{
+    background-color: #0DCAF0;
+}
+
+.colorbtn{
+    background-color: #0DCAF0;
+}
+.footer{
+    background-color: #0DCAF0;
+}
