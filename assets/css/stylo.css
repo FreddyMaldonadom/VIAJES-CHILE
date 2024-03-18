@@ -119,3 +119,12 @@ p {
   font-style: normal;
   font-size: 60px;
 }
+
+.logo {
+  width: 3%;
+  margin-right: 3px;
+}
+.textlogo {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800 !important;
+}
