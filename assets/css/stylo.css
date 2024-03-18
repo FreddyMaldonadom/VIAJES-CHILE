@@ -128,3 +128,6 @@ p {
   font-family: "Poppins", sans-serif;
   font-weight: 800 !important;
 }
+.fixed-top{
+  position: fixed;
+}
