@@ -1,38 +1,121 @@
-.banner {
-    background-image: url("...img/card2.jpg");
+@media (max-width: 576px) {
+  .h1titlebl {
+    font-size: 2em; 
+  }
+
+  .btn-light,
+  .btn-info {
+    font-size: 1em; 
+    margin-top: 3%;
+  }
+    .h1titlebl {
+      font-size: 2rem;
+    }
+
+    .navbar-toggler {
+      border-color: #03293E;
+    }
+
 }
 
-.cuerpo{
-    background-color: rgb(34, 34, 34);
+body {
+  background-color: #1F1F1F;
 }
 
-.titleh1{
-    .poppins-semibold {
-        font-family: "Poppins", sans-serif;
-        font-weight: 600;
-        font-style: normal;
-      }
-}
-.card{
-    background-color: #0DCAF0;
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
 }
 
-.colorbtn{
-    background-color: #0DCAF0;
+.container {
+  padding-top: 8rem !important;
+  padding-bottom: 5rem !important;
 }
-.footer{
-    background-color: #0DCAF0;
+
+.ccolor01 {
+  background-color: #007481;
+}
+
+.ccolor02 {
+  background-color: #03293E;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.btn-light,
+.btn-info {
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #0D1625;
+  margin-top: 5%;
+}
+
+.btn-info {
+  background-color: #ffffff;
+  border: none;
+}
+
+.ctmargen {
+  padding-top: 8% !important;
+  padding-bottom: 3% !important;
+}
+
+.cuerpo {
+  background-color: rgb(34, 34, 34);
+}
+
+.titleh1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.colorbtn {
+  background-color: #0DCAF0;
+}
+
+.footer {
+  background-color: #0D1625;
 }
 
 .container-principal {
-    position: relative;
-  }
-  
-  .navbar-transparente {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
-    background-color: transparent !important;
-  }
+  position: relative;
+}
+
+.navbar-transparente {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: transparent !important;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800 !important;
+  line-height: auto;
+}
+
+.h1titlebl {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800 !important;
+  font-style: normal;
+  font-size: 60px;
+}
