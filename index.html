@@ -5,26 +5,24 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>VIAJES CHILE</title>
-<!--FAVICON-->
+  <!-- FAVICON -->
   <link rel="icon" type="image/x-icon" href="assets/img/viajes.svg">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
+  <!-- CSS de Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- CSS personalizado -->
   <link rel="stylesheet" href="assets/css/stylo.css">
-<!--AWESOME-->
+  <!-- Biblioteca de Font Awesome -->
   <script src="https://kit.fontawesome.com/b0c55d6708.js" crossorigin="anonymous"></script>
+  <!-- Fuentes de Google -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<!--GOOGLE-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lobster&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-    rel="stylesheet">
-<!--JS-->
+  <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lobster&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <!-- JavaScript personalizado -->
   <script src="assets/js/script.js"></script>
-
 </head>
+
+
 <body>
-<!--NAV-->
+  <!--NAV-->
   <div class="container-principal w-100 ">
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
       <div class="container-fluid">
@@ -36,23 +34,22 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
-            <a class="nav-link active text-white" aria-current="page" href="#">Inicio</a>
-            <a class="nav-link text-white" href="#seccion01">Quienes Somos</a>
-            <a class="nav-link text-white" href="#seccion02">Destacados</a>
-            <a class="nav-link text-white" href="#seccion03">Contacto</a>
+            <a class="nav-link text-white" aria-current="page" href="#carouselExampleAutoplaying">Inicio</a>
+            <a class="nav-link text-white" aria-current="page" href="#seccion01">Quienes Somos</a>
+            <a class="nav-link text-white" aria-current="page" href="#seccion02">Destacados</a>
+            <a class="nav-link text-white" aria-current="page" href="#seccion03">Contacto</a>
+            
           </div>
         </div>
       </div>
     </nav>
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
-</body>
+
+
 <!--CARRUSEL-->
 
 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
+  <div class="carousel-inner" id="inicio">
     <div class="carousel-item active">
       <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="img01">
       <div class="carousel-caption d-block">
@@ -111,7 +108,7 @@
 </div>
 
 <!--CARD-->
-<div class="container-flex mx-5">
+<div class="container-flex mx-5" id="seccion02">
   <div class="row justify-content-center px-md-5 px-3">
     <div class="col-12 col-md-6 text-white">
       <h3 class="h3title fs-1 fs-sm-3 fs-md-4 fs-lg-5">LOS MEJORES DESTINOS DE CHILE PARA ESTE AÑO</h3>
@@ -159,8 +156,6 @@
     </div>
     </div>
   </div>
-
-
 </div>
 
 <!--FORMULARIO-->
@@ -191,12 +186,12 @@
         </div>
       </div>
 
-    </form>
+    </form >
 
-</div>
+</div >
 
 <!--FOOTER-->
-<footer class="footer container-flex py-5">
+<footer class="footer container-flex py-5" >
   <div class="row align-items-start">
     <div class="d-flex">
       <div class="col-8 text-white text-center">
@@ -211,16 +206,32 @@
 </footer>
 
 <!--SCRIPT-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
   integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
   integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-  
+
 <script>
   var tooltipTriggerList = Array.prototype.slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
   var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
     return new bootstrap.Tooltip(tooltipTriggerEl)
   })
-  </script>
+</script>
+
+<!-- Script para habilitar el smooth scroll -->
+<script>
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+</script>
+</body>
 
 </html>
